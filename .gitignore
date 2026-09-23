@@ -1,0 +1,14 @@
+# Arduino ja VS Code ajutised failid
+build/
+*.hex
+*.elf
+.vscode/
+
+# Windows ja macOS prügi
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Paroolid ja võtmed ei lähe KUNAGI GitHubi
+.env
+*paroolid*
