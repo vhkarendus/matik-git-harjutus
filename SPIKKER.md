@@ -2,6 +2,27 @@
 
 > **Kui seda pole GitHubis, siis seda pole olemas.**
 
+## Sõnastik: inglise ↔ eesti
+
+| Inglise keeles | Eesti keeles | Tähendus |
+|---|---|---|
+| version control | versioonihaldus | kõigi muudatuste ajaloo hoidmine |
+| machine | masin | iga arvuti: server, sülearvuti, lauaarvuti, isegi telefon |
+| repository (repo) | hoidla (ka repositoorium) | kaust, kus on failid JA kogu ajalugu |
+| local | lokaalne, kohalik | selles masinas, mille taga sa istud |
+| remote | kaughoidla | hoidla teises masinas, nt GitHubis |
+| origin | origin | kaughoidla nimi, kust sa kloonisid |
+| clone | kloon, kloonima | täielik koopia hoidlast koos ajalooga |
+| working directory | töökaust | failid, mida sa muudad |
+| staging area | ettevalmistusala | „need lähevad järgmisse commit'i“ (`git add`) |
+| commit | commit (salvestuspunkt) | foto kogu projektist + sõnum |
+| push / pull | saatma / tõmbama | kaughoidlasse / kaughoidlast |
+| merge | ühendamine (ka mestimine) | kaks ajaloo liini üheks |
+| conflict | konflikt | sama rida muudeti kahes kohas erinevalt |
+| branch / main | haru / põhiharu | kõrvalliin / peamine liin |
+| pull request (PR) | PR | palve oma haru üle vaadata ja ühendada |
+| revert / restore | tagasivõtmine / taastamine | uus commit tühistab vana / fail tagasi viimase commit'i seisu |
+
 ## Üks kord arvuti kohta (seadistus)
 
 ```
